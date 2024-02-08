@@ -1,0 +1,306 @@
+.main{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1{
+    color: rgb(72, 0, 255);
+    font-family: monserrat;
+    /* border: 1px solid red; */
+}
+.caja_reapertura{
+    width: 70%;
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+}
+
+.hotel_nuevo{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.texto_hotel{
+    text-align: justify;
+    color: rgb(58, 56, 56);
+    padding: 10px;
+    font-family: monserrat;
+    letter-spacing: 1px; 
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.656);
+}
+
+.texto_primero{
+    padding: 14px;
+}
+
+.texto_hoteles{
+    text-align: justify;
+    color: rgb(58, 56, 56);
+    padding: 10px;
+    font-family: monserrat;
+    font-size: 1rem;
+}
+
+.caja_restaurante{
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    /* border: 1px solid green; */
+    background-color: rgba(255, 255, 255, 0.656)
+}
+
+.caja_columna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja_estrellas{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.estrellas{
+    width: 26%;
+}
+
+.caja_agraba{
+    width: 50%;
+    padding: 10px;
+}
+
+.h2{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(72, 0, 255);
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    margin-top: 18px;
+}
+
+
+.texto_agraba{
+    color: rgb(58, 56, 56);
+    padding: 20px;
+    text-align: justify;
+    font-family: monserrat;
+}
+
+.caja_flex{
+    display: flex;
+    width: 48%;
+    flex-direction: column;
+    padding-bottom: 10px;
+    /* border: 1px solid blue; */
+}
+
+.caja_caracteristicas{
+    display: flex;
+    /* border: 1px solid pink; */
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    justify-content: start;
+    align-items: center; 
+}
+
+.cajas_caracteristicas{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    width: 84%;
+    justify-content: start;
+    align-items: center;  
+}
+
+.caja_icono{
+    width: 22%;
+    height: 30px;
+    /* border: 1px solid green; */
+    padding: 0;
+    margin: 0;
+}
+
+.caja_icono2{
+    width: 18%;
+    height: 46px;
+    /* border: 1px solid green; */
+}
+
+.texto_caracteristicas{
+    color: black;
+   font-family: monserrat;
+   font-size: 0.8rem;
+}
+
+.caja_reservar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    height: 50px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    /* border: 1px solid red; */
+    background-color: rgba(137, 43, 226, 0.893);
+    color: white;
+    box-shadow: -2px 2px 2px black;
+    border-radius: 4px;
+}
+
+.reservar{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    font-variant: small-caps;
+    text-align: center;
+    padding-top: 13px;
+    border-radius: 4px; 
+}
+
+.caja_reservar:hover{
+    box-shadow: none;
+    color: rgba(137, 43, 226, 0.893);
+    background-color: rgba(255, 255, 255, 0.467);
+}
+
+.caja_castillo{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+
+.castillo{
+    width: 100%;
+}
+
+.h3{
+    color: rgb(208, 74, 97);
+    font-size: 1.6rem;
+    font-variant: small-caps;
+    padding-bottom: 10px;
+    font-family: monserrat;
+    font-size: 2rem;
+}
+
+.caja_hoteles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+   background-color: rgba(255,  255, 255, 0.467);
+}
+
+.caja_individual{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    width: 24%;
+    padding-bottom: 10px;
+    border-radius: 2px 2px 2px 2px;
+    background-color: rgba(255,  255, 255, 0.467); 
+}
+
+.imagen_hotel{
+    width: 100%;
+    border-radius: 4px;
+    /* border: 1px solid red; */
+}
+
+.h4{
+    color: rgb(208, 74, 97);
+    font-size: 1.3rem;
+    padding: 8px;
+    font-family: monserrat;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64%;
+    height: 46px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    /* border: 1px solid red; */
+    background-color:  rgb(208, 74, 97);
+    color: white;
+    box-shadow: -2px 2px 2px black;
+    margin-left: 42px;
+    border-radius: 6px;
+}
+
+.texto_boton{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    font-size: 1.1rem;
+    font-variant: small-caps;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.boton:hover{
+    box-shadow: none;
+    color:  rgb(208, 74, 97);
+    background-color: rgba(255, 255, 255, 0.467);
+}
+
+.caja_mapa{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    /* border: 3px solid orange; */
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.titulo_mapa{
+    color:  rgb(208, 74, 97);
+    font-size: 1.9rem;
+    font-variant: small-caps;
+    padding-top: 30px;
+    font-family: monserrat;
+}
+
+.caja_dibujo{
+    width: 50%;
+    height: 470px;
+    padding: 10px;
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.mapa{
+    width: 100%;
+    border-radius: 4px; 
+}
+
+
+.iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

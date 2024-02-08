@@ -1,0 +1,171 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto_restaurante{
+    color: rgb(58, 56, 56);
+    text-align: center;
+    padding: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: monserrat;
+    letter-spacing: 1px;
+    background-color: rgba(255, 255, 255, 0.656);
+}
+
+.titulo{
+    text-align: center;
+    color: blueviolet;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: regular;
+}
+
+.caja_restaurante{
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    /* border: 1px solid green; */
+    background-color: rgba(255, 255, 255, 0.656);
+    padding: 20px;
+}
+
+.caja_columna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.caja_agraba{
+    width: 50%;
+    /* padding: 10px; */
+    /* border: 1px solid red; */
+    border-radius: 4px;
+}
+
+.h2{
+    text-align: center;
+    font-size: 2rem;
+    color:  rgba(137, 43, 226, 0.893);
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    font-family: monserrat;
+}
+
+.texto_agraba{
+    color: rgb(58, 56, 56);
+    padding: 20px;
+    text-align: justify;
+    font-family: monserrat;
+    letter-spacing: 1px;
+}
+
+.caja_reservar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    height: 50px;
+    margin-top: 12px;
+    /* border: 1px solid red; */
+    background-color: rgba(137, 43, 226, 0.893);
+    color: white;
+    box-shadow: -2px 2px 2px black;
+    border-radius: 4px;    
+}
+
+.reservar{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    font-variant: small-caps;
+    text-align: center;
+    padding-top: 13px;
+    border-radius: 2px;  
+}
+
+.caja_reservar:hover{
+    box-shadow: none;
+    color: rgba(137, 43, 226, 0.893);
+    background-color: rgba(255, 255, 255, 0.467);
+}
+
+.imagen_largamickye{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.mickye_restaurante{
+    width: 100%;
+    height: 100%;
+}
+
+.h3{
+    color: rgb(72, 0, 255);
+    text-align: center;
+    font-size: 2.2rem;
+    font-variant: small-caps;
+    text-align: center;
+    font-family: monserrat;
+}
+
+.tabla{
+    width: 100%;
+    font-variant: small-caps;
+    border: 1px solid rgb(42, 42, 218);
+    background-color: rgba(196, 196, 196, 0.2);
+    margin-bottom: 40px;
+    border-radius: 4px;
+}
+
+.tarifas{
+    color:white;
+    border: 1px solid rgb(42, 42, 218);
+    font-size: 1.6rem ;
+    text-align: center;
+    background-color: rgb(146, 135, 174);
+    padding: 10px;
+    border-radius: 4px;
+    font-family: monserrat;
+}
+
+.individuales{
+    color: black;
+    border: 1px solid rgb(42, 42, 218);
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: monserrat;
+    color: rgb(39, 38, 38);
+}
+
+.individuales:hover,.texto_tarifa:hover{
+    background-color: rgba(105, 84, 124, 0.205);
+}
+
+.texto_tarifa{
+    padding-left: 12px;
+    font-size: 1rem;
+    font-family: monserrat;
+    color: rgb(39, 38, 38);
+}
+
+.diferente{
+    width: 200px;
+    /* color: black; */
+    border: 1px solid rgb(42, 42, 218);
+    background-color: rgba(154, 140, 192, 0.793);
+    padding: 5px;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: monserrat;
+}

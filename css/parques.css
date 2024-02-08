@@ -1,0 +1,133 @@
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.bienvenido{
+    text-align: center;
+    color: rgb(208, 74, 97);
+    /* background-color: rgba(255, 255, 255, 0.656); */
+    padding-top: 40px;
+    padding-bottom: 24px;
+    font-family: regular;
+}
+
+.caja_navidad{
+    width: 100%;
+    height: 390px;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+   
+}
+
+.imagen_navidad{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+  
+}
+
+.texto_parque{
+    color: rgb(58, 56, 56);
+    text-align: center;
+    padding: 14px;
+    /* padding-bottom: 50px; */
+    margin-bottom: 50px;
+    font-family: monserrat;
+    letter-spacing: 1px;
+    background-color: rgba(255, 255, 255, 0.656);
+}
+
+
+.caja_personajes{
+    width: 100%;
+    height: 400px;
+   /* border: 1px solid rebeccapurple; */
+   margin-bottom: 14px;
+}
+
+.personaje{
+    width: 100%;
+    height: 100%;
+}
+
+.caja_cabalgatas{
+    width: 100%;
+    display: flex;
+    /* border: 1px solid blue; */
+    background-color: rgba(255, 255, 255, 0.656);
+}
+
+.iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    /* border: 1px solid purple; */
+}
+
+.texto_cabalgatas{
+    padding: 20px;
+    text-align: justify;
+    font-family: monserrat;
+    letter-spacing: 1px;
+    
+}
+
+.caja_nemo{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 60%;
+    
+}
+
+.titulo_cabalgatas{
+    color: blueviolet;
+    font-size: 2rem;
+    text-align: center;
+    font-variant: small-caps;
+    font-family: monserrat;
+    padding-top: 14px;
+     /* border: 1px solid black; */
+}
+
+.caja_varita{
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.imagen_varita{
+    width: 100%;
+}
+
+.h2{
+    color: rgb(208, 74, 97);
+    font-size: 1.6rem;
+    text-align: center;
+    font-variant: small-caps;
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: monserrat;
+}
+
+.caja_carrozas{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.carroza{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.h4{
+    color: rgb(208, 74, 97);
+    font-size: 1.3rem;
+    padding: 8px;
+}
+
